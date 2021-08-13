@@ -1,12 +1,20 @@
-import React from 'react'
-import './css/Summation.css'
+import React from "react";
+import "./css/Summation.css";
 
-function Summation() {
-  return (
-    <div className='summation__container'>
-      <h1>399981</h1>
-    </div>
-  )
+function Summation({
+	firstOrSecond,
+	firstNum,
+	secondNum,
+	newTotal,
+	showTotal,
+}) {
+	return (
+		<React.Fragment>
+			<div className="summation__container">
+				<h1>{showTotal ? newTotal : firstOrSecond ? secondNum : firstNum}</h1>
+			</div>
+		</React.Fragment>
+	);
 }
 
-export default Summation
+export default Summation;

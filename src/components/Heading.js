@@ -8,7 +8,7 @@ function Heading() {
       <div className='right__details'>
 
         <div className="right__title">
-          <h4>Theme</h4>
+          <h6>Theme</h6>
         </div>
         <div className='scroll__details'>
           <div className='scroll__numbers'>

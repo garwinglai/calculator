@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Heading from './components/Heading'
 import Summation from './components/Summation'
@@ -12,7 +12,6 @@ function App() {
       <main className='back'>
         <div className='entire__container'>
           <Heading />
-          <Summation />
           <Numbers />
         </div>
       </main>

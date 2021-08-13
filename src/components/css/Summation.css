@@ -4,9 +4,11 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 15px;
+  height: 65px;
 }
 
 .summation__container > h1 {
   color: white;
+  margin-top: 10px;
   margin-right: 25px;
 }

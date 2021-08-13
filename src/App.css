@@ -7,8 +7,8 @@
 }
 
 .entire__container {
-  width: 50%;
-  height: 80%;
+  width: 30%;
+  height: 60%;
   display: flex;
   flex-direction: column;
 }
